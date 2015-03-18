@@ -1,0 +1,63 @@
+.container {
+	width: 100%; /* 1000px / 1000px = 100% */
+}
+
+/* Convert to Percentage Widths */
+article {
+	width: 56%; /* 560px / ?  =  */
+}
+
+aside {
+	width: 36%; /* 360px = ?  */
+}
+
+/*Convert EM font size */
+h1 {
+	font-size: 2.5em; /* 1000px / ?  = ? */
+
+p {
+	font-size: 1.5em; /* 24px / ? = ? */ 
+}
+
+p a {
+	font-size: .75em; /* 18px / ? = ? */
+}
+
+
+/*==============================*/
+/* DO NOT EDIT BELOW THIS LINE */
+/*==============================*/
+article, 
+aside {
+	background: rgba(255,255,255,.75);
+	float: left;
+	padding: 20px;
+}
+
+a:link, 
+a:visited {
+	color: #333;
+	border-bottom: dotted 1px #333;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: orange;
+	border-bottom: dotted 1px orange;
+}
+
+body {
+	background: url("http://vcd.github.io/368/img/368-bg-tile-3.png");
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 2em;
+}
+
+
+@media (max-width: 1000px ){
+
+	article, 
+	aside {
+		width: 100%;
+	}
+}

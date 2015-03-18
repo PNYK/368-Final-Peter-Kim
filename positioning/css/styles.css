@@ -1,0 +1,78 @@
+/* Position Headers & Paragraph w/in Figure */
+figure {
+	position: relative;
+}
+
+h3 {
+	position: absolute;
+	right:150px;
+	border-right-width: 20px;
+
+
+}
+
+img {
+	
+	bottom: 2px;
+
+}
+
+/* 
+	- Hover Over Figure (any part), Caption Appears 
+	- Transition Caption, `p` transitions in .5 seconds
+*/
+
+p {
+	opacity: 0;
+	
+}
+
+p:hover {
+   -webkit-transition:ease-in-out;
+   transition-time: .5s;
+}
+
+
+
+
+
+
+
+
+
+/*==============================*/
+/* DO NOT EDIT BELOW THIS LINE */
+/*==============================*/
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+figure {
+	background: #000;
+	border: 10px solid #000;
+	height: 300px;
+	float: left;
+	width: 200px;
+}
+
+h3 {
+	background: rgba(0,0,0,.75);
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+}
+
+p {
+	background: rgba(0,0,0,.75);
+	color: #fff;
+	font-size: .75em;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	text-align: center;	
+}
+

@@ -1,0 +1,58 @@
+/* 
+  * Create advertisement using keyframe animation
+  * OK to target WebKit browsers ONLY     
+  * 3 second animation, with 3 second delay on "big"
+  * See video for details
+  * HINT: Write two keyframes
+*/
+
+/* Call/Activate Animations */
+.square {
+
+}
+
+.big {
+
+}
+
+/* `fadein` animation */
+
+
+/* `moveleft` animation */
+
+
+
+/*==============================*/
+/* DO NOT EDIT BELOW THIS LINE */
+/*==============================*/
+aside {
+   border: 1px solid #333;
+   height: 100px;
+   overflow: hidden;
+   margin: 200px auto 0 auto;
+   padding: 10px;
+   width: 270px;
+}
+
+.square {
+  background: #b31b34;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+p {
+  font-size: 2em;
+  line-height: 34px;
+  margin: 0 0 0 120px;
+}
+
+.start,
+.something {
+  color: #666;
+}
+
+.big {
+  color: #b31b34;
+  font-weight: bold;
+}

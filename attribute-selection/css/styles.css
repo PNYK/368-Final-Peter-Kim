@@ -1,0 +1,70 @@
+/* Add `file.png` to all PDF links */
+
+
+/* Add `web.png` to all external web links */
+
+
+/* Add `treehouse.png` to all TreeHouse web links */
+
+a::before nth-child(1,4,9) {
+content: url(../img/file.png);
+}
+
+a::before nth-child (2,3,7) {
+	content: url(../img/web.png);
+}
+
+a::before nth-child (5,6,8) {
+	content: url(../img/treehouse.png);
+}
+
+
+
+
+/*==============================*/
+/* DO NOT EDIT BELOW THIS LINE */
+/*==============================*/
+body {
+	background: url("http://vcd.github.io/368/img/368-noise.png");
+}
+
+footer {
+	margin: 0 auto;
+	width: 95%;
+}
+
+section {
+	float: left;
+	width: 30%;
+	padding: 20px;
+}
+
+h2, h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin: 32px 0 32px 0;
+}
+
+a:link, 
+a:visited {
+	color: #615769;
+	line-height: 1.5em;
+	padding: 20px 0 20px 60px;  
+	text-decoration: none;
+}
+
+a:hover, 
+a:focus,
+a:active {
+	color: #47A7BF;
+}
+
